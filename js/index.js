@@ -109,7 +109,7 @@ const displayPlantCards=(cards)=>{
 const cardDiv = document.createElement('div');
         cardDiv.innerHTML=`
           <div class="bg-white rounded-xl p-4 shadow-sm">
-            <img class="w-[350px] h-[300px] " src="${card.image} alt="">
+            <img class="w-[350px] h-[300px] max-sm:w-full" src="${card.image} alt="">
             <button onclick="loadPlantDetail(${card.id})" class="font-bold">${card.name}</button>
             <p class="w-[200px] truncate overflow-hidden whitespace-nowrap">${card.description}</p>
             <div class="flex justify-between items-center m-2">
