@@ -92,7 +92,7 @@ displayPlant=(plant)=>{
             <button onclick="loadPlantDetail(${plant.id})" class="font-bold text-2xl">${plant.name}</button>
             <p class="">${plant.description}</p>
             <div class="flex justify-between items-center m-2">
-                <button class="bg-[#DCFCE7] text- text-green-500 px-3 py-1 rounded-full">${plant.category}</button>
+                <button class="bg-[#DCFCE7] text-sm text-green-500 px-3 py-1 rounded-full">${plant.category}</button>
                 <p class="font-bold">৳${plant.price}</p>
                 </div>
           </div>`;
@@ -113,7 +113,7 @@ const cardDiv = document.createElement('div');
             <button onclick="loadPlantDetail(${card.id})" class="font-bold">${card.name}</button>
             <p class="w-[200px] truncate overflow-hidden whitespace-nowrap">${card.description}</p>
             <div class="flex justify-between items-center m-2">
-                <button class="bg-[#DCFCE7] text- text-green-500 px-3 py-1 rounded-full">${card.category}</button>
+                <button class="bg-[#DCFCE7] text-sm text-green-500 px-3 py-1 rounded-full">${card.category}</button>
                 <p class="font-bold">৳${card.price}</p>
                 </div>
                 

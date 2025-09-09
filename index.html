@@ -20,15 +20,15 @@
 <header>
     <nav class="bg-[#15803D] text-white px-6 py-3 flex items-center justify-between">
     
-        <div class=" font-semibold text-lg max-sm:text-[18px]">Green Earth</div>
+        <div class=" font-semibold text-lg max-sm:text-[16px]">Green Earth</div>
 
         <ul class=" menu menu-horizontal md:flex gap-2 text-sm ">
-        <li><a href="" class="hover:text-gray-200">About</a></li>
-        <li><a href="" class="hover:text-gray-200">Gallery</a></li>
-        <li><a href="" class="hover:text-gray-200">Plant a Tree</a></li>
+        <li><a href="" class="hover:text-gray-200 max-sm:text-[12px]">About</a></li>
+        <li><a href="" class="hover:text-gray-200 max-sm:text-[12px]">Gallery</a></li>
+        <li><a href="" class="hover:text-gray-200 max-sm:text-[12px]">Plant a Tree</a></li>
         </ul>
 
-        <button href="" class="bg-[#FACC15] text-[#15803D] font-medium px-4 py-2 rounded-full hover:bg-[#FFFF51]">
+        <button href="" class="bg-[#FACC15] text-[#15803D] font-medium px-4 py-2 rounded-full hover:bg-[#FFFF51] max-sm:text-[10px]">
         Plant a Tree
         </button>
     </nav>
@@ -95,7 +95,93 @@
     </section>
 </main>
 
+<section id="about" class="bg-base-100">
+    <div class="max-w-6xl mx-auto px-4 md:px-8 py-12">
+    <h2 class="text-center text-2xl font-bold mb-8">
+        About the Campaign
+    </h2>
+        <div class="grid md:grid-cols-2 gap-8 items-center">
+        <img class="w-full rounded-xl shadow" src="assets/about.png" alt=""/>
+            <div>
+            <p class="leading-relaxed">
+                Green Earth is a global tree plantation initiative dedicated to fighting climate change. Since our start, we’ve planted over 500,000 trees worldwide. By joining our campaign, you help restore forests, create habitats for wildlife, and combat global warming.
+            </p>
+                <ul class="list-disc ml-6 mt-4 space-y-1">
+                <li>Restoration of natural habitats</li>
+                <li>Improvement of air quality</li>
+                <li>Support for local communities</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
 
+
+
+<section class="bg-[#CFF0DC]">
+    <div class="max-w-6xl mx-auto px-4 md:px-8 py-12">
+    <h2 class="text-center text-2xl font-bold mb-8">Our Impact</h2>
+        <div class="grid sm:grid-cols-3 gap-6">
+            <div class="bg-white shadow rounded-xl text-center p-6">
+                <h1 class="text-[#15803D] text-2xl">500K+</h1>
+                <p>Trees Planted</p>
+            </div>
+            <div class="bg-white shadow rounded-xl text-center p-6">
+                <h1 class="text-[#15803D] text-2xl">120+</h1>
+                <p>Communities Involved</p>
+            </div>
+            <div class="bg-white shadow rounded-xl text-center p-6">
+                <h1 class="text-[#15803D] text-2xl">30+</h1>
+                <p>Countries Reached</p>
+            </div>
+            
+        </div>
+    </div>
+</section>
+
+
+
+<section class="bg-[#166534] py-10">
+  <h2 class="text-white text-2xl font-semibold text-center mb-6">Plant a Tree Today</h2>
+  <div class="flex-grow flex items-center justify-center">
+    <div class="bg-[#15803D] p-8 rounded-lg shadow-lg w-full max-w-md">
+      
+      <form class="space-y-4">
+        <input 
+          type="text" 
+          placeholder="Your Name" 
+          class="w-full px-4 py-2 rounded-md " 
+        >
+
+        <input 
+          type="email" 
+          placeholder="Your Email Address" 
+          class="w-full px-4 py-2 rounded-md"
+        >
+        <select 
+          class="w-full px-4 py-2 rounded-md "
+        >
+          <option>Number of Trees</option>
+          <option>1</option>
+          <option>5</option>
+          <option>10</option>
+          <option>20</option>
+        </select>
+        <button 
+          type="submit" 
+          class="bg-[#FACC15] text-[#15803D] w-full font-medium px-4 py-2 rounded-full hover:bg-[#FFFF51]"
+        >
+          Donate Now
+        </button>
+      </form>
+    </div>
+  </div>
+</section>
+
+
+<footer class="bg-[#14532D] text-white text-center py-4 text-sm">
+© 2025 Green Earth. All Rights Reserved.
+</footer>
 
 
 
