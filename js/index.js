@@ -111,7 +111,7 @@ const cardDiv = document.createElement('div');
             <button onclick="loadPlantDetail(${card.id})" class="font-bold mt-2">${card.name}</button>
             <p class="w-[200px] truncate overflow-hidden whitespace-nowrap mt-2">${card.description}</p>
             <div class="flex justify-between items-center m-2">
-                <button class="bg-[#DCFCE7] text-sm text-green-500 px-3 py-1 rounded-full">${card.category}</button>
+                <button class="bg-[rgb(220,252,231)] text-[12px] text-green-500 px-3 py-1 rounded-full">${card.category}</button>
                 <p class="font-bold">৳${card.price}</p>
                 </div>
                 
