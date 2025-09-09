@@ -88,13 +88,11 @@ displayPlant=(plant)=>{
   // console.log(plant);
   const modelContainer = document.getElementById('details-container');
   modelContainer.innerHTML=`<div class="bg-white rounded-xl p-4 shadow-sm">
-            <img class="w-full h-[300px] " src="${plant.image} alt="">
-            <button onclick="loadPlantDetail(${plant.id})" class="font-bold text-2xl">${plant.name}</button>
-            <p class="">${plant.description}</p>
-            <div class="flex justify-between items-center m-2">
-                <button class="bg-[#DCFCE7] text-sm text-green-500 px-3 py-1 rounded-full">${plant.category}</button>
-                <p class="font-bold">৳${plant.price}</p>
-                </div>
+            <img class="w-full h-[300px] rounded-xl" src="${plant.image} alt="">
+            <button class="font-bold text-2xl mt-2">Name: ${plant.name}</button>
+            <p class="mt-2">Description: ${plant.description}</p>
+                <p class="text-sm mt-2">Category: ${plant.category}</p>
+                <p class="font-bold mt-2">Price: ৳${plant.price}</p>
           </div>`;
   
   document.getElementById('plant_modal').showModal();
@@ -110,8 +108,8 @@ const cardDiv = document.createElement('div');
         cardDiv.innerHTML=`
           <div class="bg-white rounded-xl p-4 shadow-sm">
             <img class="w-[350px] h-[300px] max-sm:w-full" src="${card.image} alt="">
-            <button onclick="loadPlantDetail(${card.id})" class="font-bold">${card.name}</button>
-            <p class="w-[200px] truncate overflow-hidden whitespace-nowrap">${card.description}</p>
+            <button onclick="loadPlantDetail(${card.id})" class="font-bold mt-2">${card.name}</button>
+            <p class="w-[200px] truncate overflow-hidden whitespace-nowrap mt-2">${card.description}</p>
             <div class="flex justify-between items-center m-2">
                 <button class="bg-[#DCFCE7] text-sm text-green-500 px-3 py-1 rounded-full">${card.category}</button>
                 <p class="font-bold">৳${card.price}</p>
