@@ -90,8 +90,8 @@ displayPlant=(plant)=>{
   modelContainer.innerHTML=`<div class="bg-white rounded-xl p-4 shadow-sm">
             <img class="w-full h-[300px] rounded-xl" src="${plant.image} alt="">
             <button class="font-bold text-2xl mt-2">Name: ${plant.name}</button>
-            <p class="mt-2">Description: ${plant.description}</p>
-                <p class="text-sm mt-2">Category: ${plant.category}</p>
+            <p class="mt-2"><span class="font-bold">Description: </span>${plant.description}</p>
+                <p class="text-sm mt-2"><span class="font-bold">Category: </span>${plant.category}</p>
                 <p class="font-bold mt-2">Price: ৳${plant.price}</p>
           </div>`;
   
